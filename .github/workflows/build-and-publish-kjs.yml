@@ -33,7 +33,7 @@ jobs:
 
       # Build application
       - name: Build
-        run: ./gradlew wasmJsBrowserDistribution
+        run: ./gradlew :composeApp:wasmJsBrowserDistribution
 
       # Upload artifact
       - name: Upload artifact
